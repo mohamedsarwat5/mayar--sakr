@@ -12,7 +12,7 @@ export default function Home() {
 
 
 
-            <div className='relative overflow-hidden section flex flex-col justify-center items-center h-screen '>
+            <div className='relative overflow-hidden section flex flex-col justify-center  h-screen '>
 
                 {/* <img className='absolute -z-10' src={blop} alt="" />
                 <img className='absolute end-0 -z-10' src={blop2} alt="" /> */}
@@ -32,11 +32,11 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className='flex flex-col text-white text-center lg:text-left'>
+                    <div className='flex flex-col text-white text-left'>
                         <h2 className='font-bold lg:text-[32px] text-2xl '>UI/ UX Designer & Instructor</h2>
                         <p className='text-2xl lg:text-[24px] mt-6'>Creative UI/UX designer turning ideas into <span className='lg:block'>smooth, beautiful, and user-friendly websites</span> and apps. Let’s bring your vision to life!</p>
                         <Link to={'/contact'} className='mt-5'>
-                            <span className='bg-btn-purple px-6 py-1 btn transition-all duration-300 ease-in-out w-fit cursor-pointer rounded-2xl font-handlee font-black text-lg lg:text-[32px] flex items-center mx-auto lg:mx-0 gap-4'>Let's Talk <img src={ar} alt="" /></span>
+                            <span className='bg-btn-purple px-6 py-1 btn transition-all duration-300 ease-in-out w-fit cursor-pointer rounded-2xl font-handlee font-black text-lg lg:text-[32px] flex items-center gap-4'>Let's Talk <img src={ar} alt="" /></span>
                         </Link>
                     </div>
                 </div>
