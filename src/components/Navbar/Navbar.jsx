@@ -11,19 +11,19 @@ export default function Navbar() {
         <>
 
 
-            <header>
+            <header className=''>
 
-                <nav className='flex justify-between items-center px-5 lg:px-[120px] py-5 fixed top-0 w-full'>
+                <nav className='flex justify-between items-center px-5 lg:px-[120px] py-5 z-50 fixed top-0 w-full bg-btn-purple/10 backdrop-blur-xs '>
                     <div className='w-[50px] lg:w-[80px]'>
                         <Link to='/'>
                             <img src={logo} alt="" />
                         </Link>
                     </div>
                     <ul className=' hidden lg:flex gap-11 text-white font-medium text-xl'>
-                        <li> <NavLink className={'transition-all duration-200 ease-in-out'} to={'/'}>Home</NavLink> </li>
-                        <li> <NavLink className={'transition-all duration-200 ease-in-out'} to={'/services'}>What i do</NavLink> </li>
-                        <li> <NavLink className={'transition-all duration-200 ease-in-out'} to={'/projects'}>Portfolio</NavLink> </li>
-                        <li> <NavLink className={'transition-all duration-200 ease-in-out'} to={'/contact'}>Contact Me</NavLink> </li>
+                        <li> <NavLink onClick={() => setIsOpen(false)} className={'transition-all duration-200 ease-in-out'} to={'/'}>Home</NavLink> </li>
+                        <li> <NavLink onClick={() => setIsOpen(false)} className={'transition-all duration-200 ease-in-out'} to={'/services'}>What i do</NavLink> </li>
+                        <li> <NavLink onClick={() => setIsOpen(false)} className={'transition-all duration-200 ease-in-out'} to={'/projects'}>Portfolio</NavLink> </li>
+                        <li> <NavLink onClick={() => setIsOpen(false)} className={'transition-all duration-200 ease-in-out'} to={'/contact'}>Contact Me</NavLink> </li>
                     </ul>
                     <button onClick={() => setIsOpen(!isOpen)} className='lg:hidden'>
                         <i className=' cursor-pointer fa-solid fa-bars text-white text-2xl'></i>
@@ -47,22 +47,22 @@ export default function Navbar() {
                 </button>
                 <nav className="flex flex-col gap-7">
                     <li className="list-none navlink">
-                        <NavLink className="flex items-center gap-3 transition-all duration-200 ease-in-out" to="/">
+                        <NavLink onClick={() => setIsOpen(false)} className="flex items-center gap-3 transition-all duration-200 ease-in-out" to="/">
                             <i className="fa-solid fa-house w-5"></i> Home
                         </NavLink>
                     </li>
                     <li className="list-none navlink">
-                        <NavLink className="flex items-center gap-3 transition-all duration-200 ease-in-out" to="/services">
+                        <NavLink onClick={() => setIsOpen(false)} className="flex items-center gap-3 transition-all duration-200 ease-in-out" to="/services">
                             <i className="fa-solid fa-users-gear w-5"></i> What I Do
                         </NavLink>
                     </li>
                     <li className="list-none navlink">
-                        <NavLink className="flex items-center gap-3 transition-all duration-200 ease-in-out" to="/projects">
+                        <NavLink onClick={() => setIsOpen(false)} className="flex items-center gap-3 transition-all duration-200 ease-in-out" to="/projects">
                             <i className="fa-solid fa-chart-simple w-5"></i> Portfolio
                         </NavLink>
                     </li>
                     <li className="list-none navlink">
-                        <NavLink className="flex items-center gap-3 transition-all duration-200 ease-in-out" to="/contact">
+                        <NavLink onClick={() => setIsOpen(false)} className="flex items-center gap-3 transition-all duration-200 ease-in-out" to="/contact">
                             <i className="fa-solid fa-envelope w-5"></i> Contact Me
                         </NavLink>
                     </li>
