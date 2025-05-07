@@ -13,7 +13,7 @@ export default function Navbar() {
 
             <header>
 
-                <nav className='flex justify-between items-center px-5 lg:px-[120px] py-5 sticky top-0 w-full'>
+                <nav className='flex justify-between items-center px-5 lg:px-[120px] py-5 fixed top-0 w-full'>
                     <div className='w-[50px] lg:w-[80px]'>
                         <Link to='/'>
                             <img src={logo} alt="" />
@@ -45,7 +45,7 @@ export default function Navbar() {
                     className={`text-white text-2xl mb-4 cursor-pointer text-end `} onClick={() => setIsOpen(false)}>
                     <i className='fa-solid fa-xmark'></i>
                 </button>
-                <nav className="flex flex-col gap-4">
+                <nav className="flex flex-col gap-7">
                     <li className="list-none navlink">
                         <NavLink className="flex items-center gap-3 transition-all duration-200 ease-in-out" to="/">
                             <i className="fa-solid fa-house w-5"></i> Home
@@ -69,12 +69,12 @@ export default function Navbar() {
                 </nav>
 
                 <div className='flex gap-6 justify-center absolute bottom-7 left-1/2 -translate-x-1/2 text-xl'>
-                    <div className='icon transition-all duration-300 ease-in-out cursor-pointer   flex items-center justify-center  rounded-full  '><i className='fa-brands fa-facebook-f'></i></div>
-                    <div className='icon transition-all duration-300 ease-in-out cursor-pointer   flex items-center justify-center  rounded-full  '><i className='fa-brands fa-instagram'></i></div>
-                    <div className='icon transition-all duration-300 ease-in-out cursor-pointer   flex items-center justify-center  rounded-full  '><i className='fa-brands fa-tiktok'></i></div>
-                    <div className='icon transition-all duration-300 ease-in-out cursor-pointer   flex items-center justify-center  rounded-full  '><i className='fa-brands fa-behance'></i></div>
+                    <a href='https://www.facebook.com/share/1GvHVVEWRC/' target='_blank' className='icon transition-all duration-300 ease-in-out cursor-pointer   flex items-center justify-center  rounded-full  '><i className='fa-brands fa-facebook-f'></i></a>
+                    <a href='https://www.instagram.com/mayar.sak_r?igsh=MWJ5ajQ0b2QzdmhsdA==' target='_blank' className='icon transition-all duration-300 ease-in-out cursor-pointer   flex items-center justify-center  rounded-full  '><i className='fa-brands fa-instagram'></i></a>
+                    <a href='https://www.tiktok.com/@mayar.sakr8' target='_blank' className='icon transition-all duration-300 ease-in-out cursor-pointer   flex items-center justify-center  rounded-full  '><i className='fa-brands fa-tiktok'></i></a>
+                    <a href='https://www.behance.net/mayarsakr' target='_blank' className='icon transition-all duration-300 ease-in-out cursor-pointer   flex items-center justify-center  rounded-full  '><i className='fa-brands fa-behance'></i></a>
 
-                    <div className='icon transition-all duration-300 ease-in-out cursor-pointer   flex items-center justify-center  rounded-full  '><i className='fa-brands fa-whatsapp'></i></div>
+                    <a href='https://api.whatsapp.com/send/?phone=201276317725&text&type=phone_number&app_absent=0&wame_ctl=1' target='_blank' className='icon transition-all duration-300 ease-in-out cursor-pointer   flex items-center justify-center  rounded-full  '><i className='fa-brands fa-whatsapp'></i></a>
 
                 </div>
 

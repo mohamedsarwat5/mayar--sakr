@@ -16,3 +16,18 @@ li:hover {
     color: var(--color-btn-purple);
     border-color: var(--color-btn-purple);
 }
+
+.ccontainer{
+    @apply lg:px-[120px] px-5 py-5 min-h-screen
+}
+
+.btn:hover{
+    background-color: #6c1db5;
+}
+
+.section{
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+     background-position: center ;
+     background-size: cover;
+}
