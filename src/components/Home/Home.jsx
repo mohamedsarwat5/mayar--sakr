@@ -12,13 +12,13 @@ export default function Home() {
 
 
 
-            <div className='relative overflow-hidden section flex flex-col '>
+            <div className='relative overflow-hidden section flex flex-col justify-center items-center h-screen '>
 
                 {/* <img className='absolute -z-10' src={blop} alt="" />
                 <img className='absolute end-0 -z-10' src={blop2} alt="" /> */}
 
-                <div className='h-18 lg:h-8 '></div>
-                <div className="ccontainer pb-0 flex flex-col lg:flex-row lg:justify-between gap-y-14 items-center">
+                {/* <div className='h-64 lg:h-8 '></div> */}
+                <div className="ccontainer pb-0 mt-16 flex flex-col  lg:flex-row lg:justify-between gap-y-14 items-center">
 
                     <div className='flex flex-col gap-3 '>
                         <img src={hero} className='w-80 mx-auto lg:w-full' alt="" />

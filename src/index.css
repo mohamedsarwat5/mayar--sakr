@@ -18,7 +18,7 @@ li:hover {
 }
 
 .ccontainer{
-    @apply lg:px-[120px] px-5 py-5 min-h-screen
+    @apply lg:px-[120px] px-5 py-5 
 }
 
 .btn:hover{
