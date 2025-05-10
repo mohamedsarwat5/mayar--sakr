@@ -7,6 +7,7 @@ import ar from '../../assets/ar.png'
 import arrow from '../../assets/arrow.png'
 import bg from '../../assets/bg.png'
 import { Link } from 'react-router-dom'
+import Services from '../Services/Services'
 export default function Home() {
     return (
         <>
@@ -19,7 +20,7 @@ export default function Home() {
                 <img className='absolute end-0 -z-10' src={blop2} alt="" /> */}
 
                 {/* <div className='h-64 lg:h-8 '></div> */}
-                <div className="ccontainer pb-0 mt-16 flex flex-col   lg:flex-row lg:justify-between gap-y-14 items-center relative">
+                <div className="ccontainer pb-0 mt-16 flex flex-col  overflow-hidden lg:flex-row lg:justify-between gap-y-14 items-center relative">
                     {/* <div className='blob1 bg-gradient-to-r from-[#DC06FF] to-[#DC06FF]'></div> */}
 
                     <div className='flex flex-col gap-3 relative '>
@@ -54,8 +55,7 @@ export default function Home() {
             </div>
 
 
-
-
+            <Services />
 
 
 

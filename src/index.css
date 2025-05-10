@@ -10,6 +10,9 @@ li:hover {
     color: var(--color-btn-purple);
 
 }
+.active{
+    color: #9333EA;
+}
 
 .icon:hover {
 
@@ -32,6 +35,7 @@ li:hover {
     background-size: cover; */
 }
 
-/* .blob1{
-    @apply w-[500px] h-[500px] rounded-full absolute top-0 -left-12 -z-10 blur-2xl opacity-[.1] overflow-hidden
-} */
+.sec{
+    background-position: right;
+    /* background-size: cove; */
+}
