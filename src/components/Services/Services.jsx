@@ -31,20 +31,20 @@ export default function Services() {
                         <div className='lg:w-3/12 h-[350px] flex flex-col items-center  py-9  px-4 rounded-2xl text-white justify-center gap-4 bg-gray-100/10 backdrop-blur-[3px] border border-btn-purple'>
 
                             <img src={img1} alt="" />
-                            <h2 className='font-handlee text-3xl'>Web Design</h2>
+                            <h2 className='font-handlee text-4xl font-bold'>Web Design</h2>
                             <p className='text-center'>Designing responsive, stylish websites that not only look great but guide users smoothly from start to finish.</p>
                         </div>
                         <div className='lg:w-3/12 h-[350px] flex flex-col items-center  py-9  px-4 rounded-2xl text-white justify-center gap-4 bg-gray-100/10 backdrop-blur-[3px] border border-btn-purple'>
 
-                            <img src={img1} alt="" />
-                            <h2 className='font-handlee text-3xl'>Web Design</h2>
-                            <p className='text-center'>Designing responsive, stylish websites that not only look great but guide users smoothly from start to finish.</p>
+                            <img src={img2} className='translate-x-5' alt="" />
+                            <h2 className='font-handlee text-4xl font-bold'>UI UX</h2>
+                            <p className='text-center'>Crafting clean, modern, and user-friendly interfaces that make every click feel easy and enjoyable.</p>
                         </div>
                         <div className='lg:w-3/12 h-[350px] flex flex-col items-center  py-9  px-4 rounded-2xl text-white justify-center gap-4 bg-gray-100/10 backdrop-blur-[3px] border border-btn-purple'>
 
-                            <img src={img1} alt="" />
-                            <h2 className='font-handlee text-3xl'>Web Design</h2>
-                            <p className='text-center'>Designing responsive, stylish websites that not only look great but guide users smoothly from start to finish.</p>
+                            <img src={img3} alt="" />
+                            <h2 className='font-handlee text-4xl font-bold'>App Design</h2>
+                            <p className='text-center'>Creating sleek mobile app designs with a seamless user journey, perfect for both iOS and Android.</p>
                         </div>
 
 
