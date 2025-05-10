@@ -8,6 +8,7 @@ import arrow from '../../assets/arrow.png'
 import bg from '../../assets/bg.png'
 import { Link } from 'react-router-dom'
 import Services from '../Services/Services'
+import Pre from '../Pre/Pre'
 export default function Home() {
     return (
         <>
@@ -56,7 +57,7 @@ export default function Home() {
 
 
             <Services />
-
+            <Pre />
 
 
         </>
