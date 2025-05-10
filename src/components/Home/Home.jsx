@@ -27,7 +27,7 @@ export default function Home() {
                         <div className='flex items-center'>
                             <img src={hero1} className='w-7/12 mx-auto lg:w-8/12' alt="" />
                             <div className='flex flex-col justify-center items-center -rotate-6 lg:-translate-y-10 -translate-y-5'>
-                                <h2 className='text-white font-handlee lg:text-[30px] mb-0 translate-y-3 font-bold'> <span className='block'>Hey</span>I'm Mayar Sakr</h2>
+                                <h2 className='text-white font-handlee text-2xl lg:text-[30px] mb-0 translate-y-3 font-bold'> <span className='block'>Hey</span>I'm Mayar Sakr</h2>
                                 <img src={arrow} className='mt-0' alt="" />
                             </div>
                         </div>
