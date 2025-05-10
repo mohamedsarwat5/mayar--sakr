@@ -16,7 +16,7 @@ export default function Services() {
 
 
             <div className='h-16 lg:h-12'></div>
-            <div className='bg-[url("assets/u.png")] bg-no-repeat sec min-h-screen flex flex-col justify-center  items-center relative'>
+            <div className='bg-[url("assets/u.png")] ser bg-no-repeat sec min-h-screen flex flex-col justify-center  items-center relative'>
                 <img src={img} className='absolute opacity-80 -z-40 w-[600px] h-[900px] object-cover left-0 ' alt="" />
                 <div className="ccontainer  flex flex-col gap-10">
 
@@ -25,22 +25,22 @@ export default function Services() {
                         <img src={arrow} className='w-10 translate-x-10' alt="" />
                     </div>
 
-                    <div className='flex flex-col lg:flex-row gap-7 items-center justify-center '>
+                    <div className='flex flex-col lg:flex-row gap-7 items-center justify-center  flex-wrap'>
 
 
-                        <div className='lg:w-3/12 h-[350px] flex flex-col items-center  py-9  px-4 rounded-2xl text-white justify-center gap-4 bg-gray-100/10 backdrop-blur-[3px] border border-btn-purple'>
+                        <div className='w-full lg:w-3/12 h-[350px] flex flex-col items-center  py-9  px-4 rounded-2xl text-white justify-center gap-4 bg-gray-100/10 backdrop-blur-[3px] border border-btn-purple'>
 
                             <img src={img1} alt="" />
                             <h2 className='font-handlee text-4xl font-bold'>Web Design</h2>
                             <p className='text-center'>Designing responsive, stylish websites that not only look great but guide users smoothly from start to finish.</p>
                         </div>
-                        <div className='lg:w-3/12 h-[350px] flex flex-col items-center  py-9  px-4 rounded-2xl text-white justify-center gap-4 bg-gray-100/10 backdrop-blur-[3px] border border-btn-purple'>
+                        <div className='w-full lg:w-3/12 h-[350px] flex flex-col items-center  py-9  px-4 rounded-2xl text-white justify-center gap-4 bg-gray-100/10 backdrop-blur-[3px] border border-btn-purple'>
 
                             <img src={img2} className='translate-x-5' alt="" />
                             <h2 className='font-handlee text-4xl font-bold'>UI UX</h2>
                             <p className='text-center'>Crafting clean, modern, and user-friendly interfaces that make every click feel easy and enjoyable.</p>
                         </div>
-                        <div className='lg:w-3/12 h-[350px] flex flex-col items-center  py-9  px-4 rounded-2xl text-white justify-center gap-4 bg-gray-100/10 backdrop-blur-[3px] border border-btn-purple'>
+                        <div className='w-full lg:w-3/12 h-[350px] flex flex-col items-center  py-9  px-4 rounded-2xl text-white justify-center gap-4 bg-gray-100/10 backdrop-blur-[3px] border border-btn-purple'>
 
                             <img src={img3} alt="" />
                             <h2 className='font-handlee text-4xl font-bold'>App Design</h2>

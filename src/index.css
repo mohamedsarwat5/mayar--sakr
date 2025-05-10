@@ -39,3 +39,7 @@ li:hover {
     background-position: right;
     /* background-size: cove; */
 }
+
+.ser{
+    background: url(assets/U.png) no-repeat center;
+}
