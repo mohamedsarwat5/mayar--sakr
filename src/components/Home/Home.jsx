@@ -3,10 +3,10 @@ import { motion } from 'framer-motion'
 import blop from '../../assets/blop.png'
 import blop2 from '../../assets/blop2.png'
 import hero1 from '../../assets/hero1.png'
-import ar from '../../assets/ar.png'
+import ar from '../../assets/fluent_arrow-up-12-filled.svg'
 import ar1 from '../../assets/arroo.png'
-import arrow from '../../assets/arrow.png'
-import x from '../../assets/x.png'
+import arrow from '../../assets/Arrow.svg'
+import x from '../../assets/Vector.svg'
 import bg from '../../assets/bg.png'
 import { Link } from 'react-router-dom'
 import Services from '../Services/Services'
@@ -29,13 +29,13 @@ export default function Home() {
 
                             <div className='hidden lg:flex flex-col justify-center items-center -rotate-6 lg:-translate-y-10 -translate-y-5'>
                                 <h2 className='text-white font-handlee  lg:text-[30px] mb-0 translate-y-3 font-bold'> <span className='block'>Hey</span>I'm Mayar Sakr</h2>
-                                <img src={arrow} className='mt-0' alt="" />
+                                <img src={arrow} className='mt-0 rotate-6' alt="" />
                             </div>
 
                             <div className='flex flex-row lg:hidden items-center justify-center gap-1'>
-                                <img src={x} className=' w-14 h-14 translate-y-4 transform scale-x-[-1]' alt="" />
-                                <h2 className='text-white font-handlee  text-[30px] mb-0 translate-y-3 font-bold'><span className='block text-center'>Hey</span>I'm Mayar Sakr</h2>
-                                <img src={x} className=' w-14 h-14 translate-y-4 ' alt="" />
+                                <img src={x} className=' w-14 h-14 rotate-45  transform scale-x-[-1]' alt="" />
+                                <h2 className='text-white font-handlee  text-[30px] mb-0  font-bold'><span className='block text-center'>Hey</span>I'm Mayar Sakr</h2>
+                                <img src={x} className=' w-14 h-14 -rotate-45  ' alt="" />
                             </div>
                         </div>
 

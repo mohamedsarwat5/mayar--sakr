@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import arrow from '../../assets/arrow1.png'
+import arrow from '../../assets/arrow(1).svg'
 import img1 from '../../assets/img1.png'
 import img2 from '../../assets/img2.png'
 import img3 from '../../assets/img3.png'

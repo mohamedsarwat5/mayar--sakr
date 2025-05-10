@@ -1,11 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import arrow from '../../assets/arrow1.png'
+import arrow from '../../assets/arrow(1).svg'
 import img from '../../assets/dark.png'
 import ling from '../../assets/ling.png';
 import landing from '../../assets/landing.png';
 import petty from '../../assets/petty.png';
 import dream from '../../assets/dream.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -66,7 +67,7 @@ export default function Pre() {
                         </div>
                     </div>
 
-
+                    <Link className='btnn' to={'/projects'}>See More</Link>
 
 
                 </div>
