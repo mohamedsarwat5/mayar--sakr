@@ -1,6 +1,7 @@
 import React from 'react'
 
-import arrow from '../../assets/arrow1.png'
+import arrow from '../../assets/arrow(1).svg'
+
 
 import ling from '../../assets/ling.png';
 import landing from '../../assets/landing.png';
@@ -35,7 +36,7 @@ export default function Projects() {
             <div>
                 <div className="ccontainer !min-h-[100dvh] flex flex-col items-center justify-center">
 
-                    <div className='flex flex-col items-center gap-3'>
+                    <div className='flex flex-col items-center gap-3 mb-5'>
                         <h2 className='bg-btn-purple px-6 py-1  transition-all duration-300 ease-in-out w-fit mx-auto rounded-2xl font-handlee font-black text-[32px]  text-white'>Recent Projects</h2>
                         <img src={arrow} className='w-10 translate-x-10' alt="" />
                     </div>
