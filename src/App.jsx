@@ -35,14 +35,14 @@ export default function App() {
   ])
 
   if (loading) {
-    return <div className='flex items-center justify-center h-screen bg-[#0C0C0C]'>
+    return <div className='flex items-center justify-center min-h-[100dvh] lo bg-[#0C0C0C]'>
 
-    <div className="loading-wave">
-  <div className="loading-bar" />
-  <div className="loading-bar" />
-  <div className="loading-bar" />
-  <div className="loading-bar" />
-</div>
+      <div className="loading-wave">
+        <div className="loading-bar" />
+        <div className="loading-bar" />
+        <div className="loading-bar" />
+        <div className="loading-bar" />
+      </div>
 
 
     </div>;
