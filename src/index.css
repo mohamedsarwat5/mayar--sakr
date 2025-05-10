@@ -17,17 +17,21 @@ li:hover {
     border-color: var(--color-btn-purple);
 }
 
-.ccontainer{
-    @apply lg:px-[120px] px-5 py-5 
+.ccontainer {
+    @apply lg:px-[120px] px-8 py-5
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #6c1db5;
 }
 
-.section{
-    background-image: url(assets/bg.png);
+.section {
+    /* background-image: url(assets/bg.png);
     background-repeat: no-repeat;
-     background-position: center ;
-     background-size: cover;
+    background-position: center;
+    background-size: cover; */
 }
+
+/* .blob1{
+    @apply w-[500px] h-[500px] rounded-full absolute top-0 -left-12 -z-10 blur-2xl opacity-[.1] overflow-hidden
+} */
