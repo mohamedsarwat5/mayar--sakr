@@ -17,7 +17,7 @@ export default function Pre() {
             <div className='h-16 lg:h-12'></div>
 
             <div className=' flex flex-col justify-center  items-center relative'>
-                {/* <img src={img} className='absolute opacity-80 -z-40 w-[600px] h-[900px] object-cover end-0  ' alt="" /> */}
+                <img src={img} className='absolute opacity-80 -z-40 w-[600px] h-[900px] object-cover end-0 bottom-0  ' alt="" />
 
                 <div className="ccontainer flex flex-col gap-10 ">
 
