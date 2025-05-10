@@ -32,7 +32,7 @@ export default function Pre() {
                             <a href='https://www.behance.net/gallery/180166455/Linguista-Design-Thinking' target='_blank'>
                                 <img src={ling} className='rounded-3xl overflow-hidden' alt="" />
                                 <div className='text-white overflow-hidden  absolute bottom-0 p-4 backdrop-blur-2xl w-full '>
-                                    <h2>Languista</h2>
+                                    <h2 className='text-2xl'>Languista</h2>
                                     <span>User Research & Mobile App</span>
                                 </div>
                             </a>
@@ -41,7 +41,7 @@ export default function Pre() {
                             <a href='https://www.behance.net/gallery/183187629/style-Haven-Landing-page' target='_blank'>
                                 <img src={landing} className='rounded-3xl' alt="" />
                                 <div className='text-white  overlay absolute bottom-0 p-4 bg-[#5a5a58]/40 backdrop-blur-2xl w-full '>
-                                    <h2>Style Haven</h2>
+                                    <h2 className='text-2xl'>Style Haven</h2>
                                     <span>Furniture-Landing Page</span>
                                 </div>
                             </a>
@@ -50,7 +50,7 @@ export default function Pre() {
                             <a href='https://www.behance.net/gallery/180595399/Dream-Trips-Landing-Page' target='_blank'>
                                 <img src={dream} className='rounded-3xl' alt="" />
                                 <div className='text-white overflow-hidden  absolute bottom-0 p-4 bg-[#5a5a58]/40  backdrop-blur-2xl w-full '>
-                                    <h2>Dream Trips</h2>
+                                    <h2 className='text-2xl'>Dream Trips</h2>
                                     <span>Travel Agency - Landing Page </span>
                                 </div>
                             </a>
@@ -59,7 +59,7 @@ export default function Pre() {
                             <a href='https://www.behance.net/gallery/177710469/Petty-Responsive-Design' className='overflow-hidden' target='_blank'>
                                 <img src={petty} className='rounded-3xl' alt="" />
                                 <div className='text-white overflow-hidden    absolute bottom-0 p-4 backdrop-blur-2xl w-full '>
-                                    <h2>Petty</h2>
+                                    <h2 className='text-2xl'>Petty</h2>
                                     <span className=' '>Pet Grooming - Landing Page</span>
                                 </div>
                             </a>
