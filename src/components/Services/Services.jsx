@@ -21,7 +21,7 @@ export default function Services() {
                 <div className="ccontainer  flex flex-col gap-10">
 
                     <div className='flex flex-col items-center gap-3'>
-                        <h2 className='bg-btn-purple px-6 py-1  transition-all duration-300 ease-in-out w-fit mx-auto rounded-2xl font-handlee font-black text-lg lg:text-[32px]  text-white'>What i do</h2>
+                        <h2 className='bg-btn-purple px-6 py-1  transition-all duration-300 ease-in-out w-fit mx-auto rounded-2xl font-handlee font-black text-[32px]  text-white'>What i do</h2>
                         <img src={arrow} className='w-10 translate-x-10' alt="" />
                     </div>
 
