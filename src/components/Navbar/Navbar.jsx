@@ -13,7 +13,7 @@ export default function Navbar() {
 
             <header className=''>
 
-                <nav className='flex justify-between items-center px-5 lg:px-[120px] py-5 z-50 fixed top-0 w-full backdrop-blur-sm '>
+                <nav className='flex justify-between items-center px-5 lg:px-[120px] py-5 z-50 fixed top-0 w-full bg-btn-purple/10 backdrop-blur-sm '>
                     <div className='w-[50px] lg:w-[80px]'>
                         <Link to='/'>
                             <img src={logo} alt="" />

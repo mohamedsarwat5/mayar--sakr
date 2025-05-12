@@ -56,7 +56,42 @@ li:hover {
 }
 
 
+@layer utilities {
+  @keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1;  }
+  }
 
+  .fade-letter {
+    opacity: 0;
+    animation: fade-in 0.5s forwards;
+    @apply px-2
+  }
+}
+
+/* يمكنك وضع هذا في ملف CSS أو داخل JSX باستخدام style tag */
+
+.slick-dots li button:before {
+  color: #888; /* اللون الافتراضي للنقطة */
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--color-btn-purple); /* لون النقطة النشطة (مثلاً أحمر من Tailwind: rose-400) */
+}
+
+
+.slick-slide > div {
+  margin: 0 10px 20px;
+
+}
+
+.card {
+    @apply  lg:h-[270px] h-[300px]
+}
+
+.card > h2{
+    @apply lg:h-26 h-36
+}
 
 
 /* From Uiverse.io by mrpumps31232 */
