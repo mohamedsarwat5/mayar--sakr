@@ -20,7 +20,7 @@ export default function Home() {
 
             <div className=" overflow-hidden section flex flex-col justify-center  h-screen   ">
 
-                <img src={blop} className='-z-30 absolute w-[700px] left-1/2 top-1/2 -translate-x-1/2 lg:left-0 lg:top-0 lg:-translate-x-0' alt="" />
+                <img src={blop} className='-z-30 absolute  w-[700px] left-1/2 top-1/2 -translate-x-1/2 lg:left-0 lg:top-0 lg:-translate-x-0' alt="" />
                 <img src={blop2} className='-z-30 absolute w-[700px] top-0 end-0 ' alt="" />
                 <div className="ccontainer pb-0 mt-16 flex flex-col  overflow-hidden lg:flex-row lg:justify-between gap-y-14 items-center relative">
 
