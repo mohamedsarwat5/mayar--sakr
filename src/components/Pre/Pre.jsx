@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import arrow from '../../assets/arrow(1).svg'
 import img from '../../assets/dark.png'
 import ling from '../../assets/ling.png';
+import ar from '../../assets/fluent_arrow-up-12-filled.svg'
 import landing from '../../assets/landing.png';
 import petty from '../../assets/petty.png';
 import dream from '../../assets/dream.png';
@@ -87,7 +88,7 @@ export default function Pre() {
                         </motion.div>
                     </div>
 
-                    <Link className='btnn' to={'/projects'}>See More</Link>
+                    <Link className='see flex items-center gap-3' to={'/projects'}>See more <img src={ar} alt="" /></Link>
 
 
                 </div>

@@ -55,41 +55,75 @@ li:hover {
     @apply bg-purple-800
 }
 
+.see {
+    @apply mx-auto relative text-white transition-all duration-300 ease-in-out w-fit cursor-pointer font-handlee font-black text-[25px] lg:text-[32px]
+}
+
+.see::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 3px;
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: .4s all ease-in-out;
+}
+
+.see:hover::after {
+    transform: scaleX(1);
+    /* background-color: var(--color-btn-purple); */
+
+}
+
+.see:hover {
+    /* color: var(--color-btn-purple) */
+}
+
 
 @layer utilities {
-  @keyframes fade-in {
-    0% { opacity: 0; }
-    100% { opacity: 1;  }
-  }
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
 
-  .fade-letter {
-    opacity: 0;
-    animation: fade-in 0.5s forwards;
-    @apply px-2
-  }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fade-letter {
+        opacity: 0;
+        animation: fade-in 0.5s forwards;
+        @apply px-2
+    }
 }
 
 /* يمكنك وضع هذا في ملف CSS أو داخل JSX باستخدام style tag */
 
 .slick-dots li button:before {
-  color: #888; /* اللون الافتراضي للنقطة */
+    color: #888;
+    /* اللون الافتراضي للنقطة */
 }
 
 .slick-dots li.slick-active button:before {
-  color: var(--color-btn-purple); /* لون النقطة النشطة (مثلاً أحمر من Tailwind: rose-400) */
+    color: var(--color-btn-purple);
+    /* لون النقطة النشطة (مثلاً أحمر من Tailwind: rose-400) */
 }
 
 
-.slick-slide > div {
-  margin: 0 10px 20px;
+.slick-slide>div {
+    margin: 0 10px 20px;
 
 }
 
 .card {
-    @apply  lg:h-[270px] h-[300px]
+    @apply lg:h-[270px] h-[300px]
 }
 
-.card > h2{
+.card>h2 {
     @apply lg:h-26 h-36
 }
 
@@ -141,4 +175,18 @@ li:hover {
 
 .lo {
     min-height: 100dvh;
+}
+
+
+
+
+
+@keyframes move-bg {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
 }

@@ -25,7 +25,7 @@ export default function Navbar() {
                         <li> <NavLink onClick={() => setIsOpen(false)} className={'transition-all duration-200 ease-in-out'} to={'/projects'}>Portfolio</NavLink> </li>
                         <li> <NavLink onClick={() => setIsOpen(false)} className={'transition-all duration-200 ease-in-out'} to={'/contact'}>Contact Me</NavLink> </li>
                     </ul>
-                    <button onClick={() => setIsOpen(!isOpen)} className='lg:hidden'>
+                    <button onClick={() => setIsOpen(!isOpen)} className={`lg:hidden ${isOpen && 'hidden'} `}>
                         <i className=' cursor-pointer fa-solid fa-bars text-white text-2xl'></i>
                     </button>
                 </nav>
@@ -35,11 +35,11 @@ export default function Navbar() {
 
             </header>
 
-            {isOpen && <div className={` fixed inset-0 bg-black/75 transition-opacity duration-300`} onClick={() => setIsOpen(false)}></div>}
+            {isOpen && <div className={` fixed inset-0 bg-black/50 transition-opacity duration-300 z-40`} onClick={() => setIsOpen(false)}></div>}
 
 
             <div
-                className={`fixed top-0 right-0 h-full w-64 flex flex-col  bg-[#0C0C0C] text-white p-6 transform transition-transform duration-300 ease-in-out z-50 ${isOpen ? "translate-x-0" : "translate-x-full"
+                className={`fixed top-0 right-0 h-full w-64 flex flex-col  bg-btn-purple/5 backdrop-blur-2xl text-white p-6 transform transition-all duration-300 ease-in-out z-50 ${isOpen ? "translate-x-0" : "translate-x-full"
                     }`}>
                 <button
                     className={`text-white text-2xl mb-4 cursor-pointer text-end `} onClick={() => setIsOpen(false)}>

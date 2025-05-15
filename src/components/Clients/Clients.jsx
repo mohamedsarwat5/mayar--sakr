@@ -4,6 +4,7 @@ import arrow from '../../assets/arrow(1).svg'
 import Rawad from '../../assets/Rawad.jpeg'
 import Raneen from '../../assets/Raneen.jpeg'
 import pic from '../../assets/pic.jpg'
+import person from '../../assets/person.jpg'
 import img from '../../assets/img.jpg'
 import blop from '../../assets/blop.png'
 import blop2 from '../../assets/blop2.png'
@@ -112,7 +113,7 @@ export default function Clients() {
                                     <img src={pic} className='rounded-full w-[80px]' alt="" />
                                 </div>
                                 <div>
-                                    <h2 className='text-[19px] font-semibold'>Abdelrahman Moftah</h2>
+                                    <h2 className='lg:text-[19px] font-bold lg:font-semibold'>Abdelrahman Moftah</h2>
                                     <p className='text-[15px]'>UI/UX Designer</p>
                                 </div>
                             </div>
@@ -126,6 +127,18 @@ export default function Clients() {
                                 <div>
                                     <h2 className='text-[19px] font-semibold'>Ahmed Tharwat</h2>
                                     <p className='text-[15px]'>UI/UX Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='bg-gray-400/20 backdrop-blur-[3px] border  p-5 border-btn-purple card text-white rounded-2xl'>
+                            <h2 >Mayar is creative and deep understanding of UI/UX truly stand out. She's not only skilled and professional, but also brings fresh, innovative ideas to the table. I’m confident she has a bright future.</h2>
+                            <div className='flex items-center gap-5 mt-5'>
+                                <div className='p-1 rounded-full bg-white'>
+                                    <img src={person} className='rounded-full w-[80px] h-[80px] object-center object-cover' alt="" />
+                                </div>
+                                <div>
+                                    <h2 className='text-[19px] font-semibold'>Bader Alhussini </h2>
+                                    <p className='text-[15px]'>UI UX Designer & team lead</p>
                                 </div>
                             </div>
                         </div>
