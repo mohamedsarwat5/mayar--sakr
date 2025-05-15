@@ -190,3 +190,22 @@ li:hover {
         background-position: -200% 0;
     }
 }
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #6c1db5;
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: #4a1082;
+
+}
