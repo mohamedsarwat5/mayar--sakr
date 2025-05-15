@@ -30,7 +30,7 @@ export default function Home() {
                             <motion.img
                                 initial={{ opacity: 0, scale: 0, }}
                                 whileInView={{ opacity: 1, scale: 1, }}
-                                transition={{ duration: .4 , scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 }}}
+                                transition={{ duration: .4 }}
                                 src={hero1} className='w-full mx-auto lg:w-8/12' alt="" />
 
                             <motion.div
