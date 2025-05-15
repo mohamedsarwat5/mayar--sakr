@@ -47,7 +47,7 @@ export default function App() {
         <span className="fade-letter" style={{ animationDelay: '0.6s' }}>G</span>
       </div> */}
 
-      <h1 class="text-6xl font-bold tracking-[15px]  text-transparent bg-gradient-to-r from-transparent via-gray-400 to-transparent bg-[length:200%_100%] bg-clip-text animate-[move-bg_2s_linear_infinite]">
+      <h1 class="text-3xl font-bold tracking-[15px]  text-transparent bg-gradient-to-r from-transparent via-gray-400 to-transparent bg-[length:200%_100%] bg-clip-text animate-[move-bg_2s_linear_infinite]">
         LOADING
       </h1>
 
