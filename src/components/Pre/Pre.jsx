@@ -8,6 +8,7 @@ import landing from '../../assets/landing.png';
 import petty from '../../assets/petty.png';
 import dream from '../../assets/dream.png';
 import { Link } from 'react-router-dom';
+import food from '../../assets/food.png';
 
 
 
@@ -65,11 +66,11 @@ export default function Pre() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: .4 }}
                             className='lg:w-5/12 relative rounded-2xl overflow-hidden '>
-                            <a href='https://www.behance.net/gallery/180595399/Dream-Trips-Landing-Page' target='_blank'>
-                                <img src={dream} className='rounded-3xl' alt="" />
+                            <a href='https://www.behance.net/gallery/163508497/Foodi-Mobile-App' target='_blank'>
+                                <img src={food} className='rounded-3xl' alt="" />
                                 <div className='text-white overflow-hidden  absolute bottom-0 p-4 bg-[#5a5a58]/40  backdrop-blur-2xl w-full '>
-                                    <h2 className='text-2xl'>Dream Trips</h2>
-                                    <span>Travel Agency - Landing Page </span>
+                                    <h2 className='text-2xl'>Foodi</h2>
+                                    <span>Food - Mobile App </span>
                                 </div>
                             </a>
                         </motion.div>
