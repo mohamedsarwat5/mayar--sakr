@@ -38,7 +38,7 @@ export default function App() {
     return <div className='flex items-center justify-center min-h-[100dvh] lo bg-[#0C0C0C]'>
 
 
-      <h1 class="shiny-text">
+      <h1 class="shiny-text text-2xl lg:text-[50px]">
         LOADING
       </h1>
 
