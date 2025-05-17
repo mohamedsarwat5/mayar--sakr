@@ -128,6 +128,27 @@ li:hover {
 }
 
 
+.shiny-text {
+      font-size: 50px;
+      font-weight: bold;
+      background: linear-gradient(90deg, #838383, #ffffff, #838383);
+      background-size: 200%;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: shine 2s infinite linear;
+      letter-spacing: 15px;
+    }
+
+    @keyframes shine {
+      0% {
+        background-position: 200% 0;
+      }
+      100% {
+        background-position: -200% 0;
+      }
+    }
+
 /* From Uiverse.io by mrpumps31232 */
 .loading-wave {
     width: 300px;

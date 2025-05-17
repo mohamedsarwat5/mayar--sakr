@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import blop from '../../assets/blop.png'
+import blob from '../../assets/blob.png'
 import blop2 from '../../assets/blop2.png'
 import hero1 from '../../assets/hero1.png'
 import ar from '../../assets/fluent_arrow-up-12-filled.svg'
@@ -20,7 +20,7 @@ export default function Home() {
 
             <div className=" overflow-hidden section flex flex-col justify-center  min-h-screen   ">
 
-                <img src={blop} className='-z-30 absolute  w-[700px] left-1/2 top-1/2 -translate-x-1/2 lg:left-0 lg:top-0 lg:-translate-x-0' alt="" />
+                <img src={blob} className='-z-30 absolute opacity-60 lg:opacity-100  w-[700px] left-1/2 top-5/12 -translate-x-9/12 lg:left-0 lg:top-0 lg:-translate-x-0' alt="" />
                 <img src={blop2} className='-z-30 absolute w-[700px] top-0 end-0 ' alt="" />
                 <div className="ccontainer pb-0 mt-16 flex flex-col  overflow-hidden lg:flex-row lg:justify-between gap-y-14 items-center relative">
 
