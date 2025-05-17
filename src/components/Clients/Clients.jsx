@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { motion } from 'framer-motion'
+import { motion, } from 'framer-motion'
 import arrow from '../../assets/arrow(1).svg'
 import Rawad from '../../assets/Rawad.jpeg'
 import Raneen from '../../assets/Raneen.jpeg'
@@ -13,7 +13,9 @@ import Slider from "react-slick";
 export default function Clients() {
 
 
-    let settings = {
+
+
+    const settings = {
         infinite: true,
         slidesToShow: 3,
         speed: 500,

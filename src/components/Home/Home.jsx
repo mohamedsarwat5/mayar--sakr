@@ -69,17 +69,29 @@ export default function Home() {
                         </motion.div>
                     </div>
 
-                    <motion.div
-                        initial={{ opacity: 0, x: -100 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: .4, }}
+                    <div
+
                         className='flex flex-col text-white text-left'>
-                        <h2 className='font-bold lg:text-[32px] text-2xl '>UI/ UX Designer & Instructor</h2>
-                        <p className='text-2xl lg:text-[24px] mt-6'>Creative UI/UX designer turning ideas into <span className='lg:block'>smooth, beautiful, and user-friendly websites</span> and apps. Let’s bring your vision to life!</p>
-                        <Link to={'/contact'} className='mt-5'>
-                            <span className='bg-btn-purple px-6 py-1 btn transition-all duration-300 ease-in-out w-fit cursor-pointer rounded-2xl font-handlee font-black text-lg lg:text-[32px] flex items-center gap-4'>Let's Talk <img src={ar} alt="" /></span>
-                        </Link>
-                    </motion.div>
+                        <motion.h2
+                            initial={{ opacity: 0, x: 100 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: .4, delay: .2 }}
+                            className='font-bold lg:text-[32px] text-2xl '>UI/ UX Designer & Instructor</motion.h2>
+                        <motion.p
+                            initial={{ opacity: 0, x: 100 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: .4, delay: .3 }}
+                            className='text-2xl lg:text-[24px] mt-6'>Creative UI/UX designer turning ideas into <span className='lg:block'>smooth, beautiful, and user-friendly websites</span> and apps. Let’s bring your vision to life!</motion.p>
+                        <motion.span
+                            initial={{ opacity: 0, x: 100 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: .4, delay: .4 }}
+                            className='mt-5'>
+                            <Link to={'/contact'} className='mt-5'>
+                                <span className='bg-btn-purple px-6 py-1 btn transition-all duration-300 ease-in-out w-fit cursor-pointer rounded-2xl font-handlee font-black text-lg lg:text-[32px] flex items-center gap-4'>Let's Talk <img src={ar} alt="" /></span>
+                            </Link>
+                        </motion.span>
+                    </div>
                 </div>
             </div>
 
