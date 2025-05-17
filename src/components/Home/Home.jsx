@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom'
 import Services from '../Services/Services'
 import Pre from '../Pre/Pre'
 import Clients from '../Clients/Clients'
+import Contact from '../Contact/Contact'
 export default function Home() {
     return (
         <>
@@ -36,7 +37,7 @@ export default function Home() {
                             <motion.div
                                 initial={{ opacity: 0, scale: 0, }}
                                 whileInView={{ opacity: 1, scale: 1, }}
-                                transition={{ duration: .4 ,scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },}}
+                                transition={{ duration: .4, scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 }, }}
                                 className='hidden lg:flex flex-col justify-center items-center -rotate-6 lg:-translate-y-10 -translate-y-5'>
                                 <h2 className='text-white font-handlee  lg:text-[30px] mb-0 translate-y-3 font-bold'> <span className='block'>Hey</span>I'm Mayar Sakr</h2>
                                 <img src={arrow} className='mt-0 rotate-6' alt="" />
@@ -86,6 +87,7 @@ export default function Home() {
             <Services />
             <Pre />
             <Clients />
+            <Contact />
 
         </>
     )
