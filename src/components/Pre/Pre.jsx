@@ -88,7 +88,7 @@ export default function Pre() {
                         </motion.div>
                     </div>
 
-                    <Link className='see flex items-center gap-3' to={'/projects'}>See more <img src={ar} alt="" /></Link>
+                    <Link className='see flex items-center gap-3 mb-9' to={'/projects'}>See more <img src={ar} alt="" /></Link>
 
 
                 </div>
