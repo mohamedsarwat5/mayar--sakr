@@ -17,7 +17,7 @@ export default function Contact() {
 
             <div>
 
-                <div className='relative ccontainer min-h-screen flex flex-col-reverse lg:flex-row gap-y-9 lg:justify-between items-center !pb-16 !lg:pb-0 overflow-hidden'>
+                <div className='relative ccontainer min-h-screen flex flex-col-reverse lg:flex-row gap-y-9 justify-between items-center !pb-16 !lg:pb-0 overflow-hidden'>
                     <img src={blob} className='absolute -z-10 -left-32 lg:-top-24 opacity-50 lg:w-[900px]' alt="" />
                     <div>
                         <motion.h2
