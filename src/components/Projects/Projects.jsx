@@ -58,7 +58,7 @@ export default function Projects() {
                             transition={{ duration: .4 }}
                             className='lg:w-3/12  proCard relative rounded-2xl overflow-hidden '>
                             <a href='https://www.behance.net/gallery/180166455/Linguista-Design-Thinking' target='_blank'>
-                                <img src={ling} className='rounded-3xl overflow-hidden' alt="" />
+                                <img src="https://i.postimg.cc/1RkYQntF/ling.png" className='rounded-3xl overflow-hidden' alt="" />
                                 <div className='text-white overflow-hidden  absolute bottom-0 p-4 backdrop-blur-2xl w-full '>
                                     <h2 className='text-2xl'>Languista</h2>
                                     <span>User Research & Mobile App</span>
@@ -72,7 +72,7 @@ export default function Projects() {
                             transition={{ duration: .4 }}
                             className='lg:w-3/12  proCard relative rounded-2xl overflow-hidden '>
                             <a href='https://www.behance.net/gallery/170611369/Brainy-Academy' className='overflow-hidden' target='_blank'>
-                                <img src={brain} className='rounded-3xl' alt="" />
+                                <img src="https://i.postimg.cc/FHMKbxsR/brain.png" className='rounded-3xl' alt="" />
                                 <div className='text-white overflow-hidden    absolute bottom-0 p-4 backdrop-blur-2xl w-full '>
                                     <h2 className='text-2xl'>Brainy Academy</h2>
                                     <span className=' '>courses - Mobile App</span>
@@ -86,7 +86,7 @@ export default function Projects() {
                             transition={{ duration: .4 }}
                             className='lg:w-3/12  proCard relative rounded-2xl overflow-hidden'>
                             <a href='https://www.behance.net/gallery/183187629/style-Haven-Landing-page' target='_blank'>
-                                <img src={landing} className='rounded-3xl' alt="" />
+                                <img src="https://i.postimg.cc/C5Bt4bKh/landing.png" className='rounded-3xl ' alt="" />
                                 <div className='text-white  overlay absolute bottom-0 p-4 bg-[#5a5a58]/40 backdrop-blur-2xl w-full '>
                                     <h2 className='text-2xl'>Style Haven</h2>
                                     <span>Furniture-Landing Page</span>
