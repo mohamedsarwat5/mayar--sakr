@@ -5,6 +5,7 @@ import Home from './components/Home/Home'
 import Services from './components/Services/Services'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 export default function App() {
 
@@ -36,22 +37,21 @@ export default function App() {
 
   if (loading) {
     return <div className='flex items-center justify-center min-h-[100dvh] lo bg-[#0C0C0C]'>
-
-
       <h1 class="shiny-text text-2xl lg:text-[50px]">
         LOADING
       </h1>
-
-
-
     </div>;
   }
 
+
+
+  let queryClient = new QueryClient()
+
   return (
     <>
-
-      <RouterProvider router={router}></RouterProvider>
-
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router}></RouterProvider>
+      </QueryClientProvider>
 
     </>
   )

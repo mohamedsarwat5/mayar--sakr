@@ -2,32 +2,36 @@ import React, { useEffect, useState } from 'react'
 
 import arrow from '../../assets/arrow(1).svg'
 import { motion } from 'framer-motion'
+import { useQuery } from '@tanstack/react-query'
 
 
+function getData() {
+    return fetch(`https://api.sheetbest.com/sheets/5a59ed20-0dad-485c-bde1-c1b40fa5c1a9`).then(res => res.json())
+
+
+}
 
 
 export default function Projects() {
 
-    const [data, setData] = useState()
 
-    async function getData() {
-        let res = await fetch(`https://api.sheetbest.com/sheets/5a59ed20-0dad-485c-bde1-c1b40fa5c1a9`)
-        let requst = await res.json()
-        setData(requst)
-        console.log(requst)
-    }
+    const { data, isLoading } = useQuery({
+        queryKey: ['sheetData'],
+        queryFn: getData,
+    })
 
-    useEffect(() => {
-        getData();
-    }, []);
-
+    if (isLoading) return <div className='flex items-center justify-center min-h-[100dvh] lo bg-[#0C0C0C]'>
+        <h1 class="shiny-text text-2xl lg:text-[50px]">
+            LOADING
+        </h1>
+    </div>;
 
     return (
 
         <>
 
 
-            <div className='h-16 lg:h-[115px]'></div>
+            <div className='h-18 lg:h-[115px]'></div>
 
             <div className='mb-10'>
                 <div className="ccontainer !min-h-[100dvh] flex flex-col items-center justify-center">
